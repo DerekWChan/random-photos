@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+#photos {
+  columns: 380px auto;
+  padding: 0 10px;
+}
+
+.photos_card {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.photos_card img {
+  width: 100%;
+}
+
+.photos_card-info {
+  display: inline-block;
+  width: 100%;
+  margin-top: -5px;
+  padding: 30px;
+  color: #FFF;
+  background-color: #222;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+.photos_card-info a {
+  color: #FFF;
+}
